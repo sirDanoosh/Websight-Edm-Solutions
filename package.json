@@ -1,6 +1,7 @@
 {
   "name": "websight-edm-solutions",
   "version": "0.1.0",
+  "author": "Danoosh Juibar",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
