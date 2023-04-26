@@ -19,4 +19,21 @@ code {
 :root{
   --text-color: #fff;
   --btn-bg: #df2176;
+  --modal-bg: #fff;
+}
+
+input{
+  height: 40px;
+  padding: 6px 20px;
+  border: 1px solid #015fcc;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 12px;
+  outline: none;
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+input:focus{
+  border: 2px solid #015fcc;
 }

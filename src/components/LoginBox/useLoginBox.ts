@@ -1,18 +1,20 @@
 import { useState } from "react"
 
 const useLoginBox = () => {
-    const [isLoginBoxOpen, setIsLoginBoxOpen] = useState<boolean>(false)
+    const [isFormOpen, setIsFormOpen] = useState<boolean>(false)
     
-    function toggleLogin() {
-        if(isLoginBoxOpen) {
-            setIsLoginBoxOpen(false)
-        } else {
-            setIsLoginBoxOpen(true)
-        }
+    function openForm() {
+        setIsFormOpen(true)
+    }
+
+    function closeForm() {
+        setIsFormOpen(false)
     }
 
     return {
-        toggleLogin
+        openForm,
+        closeForm,
+        isFormOpen
     }
 }
 
