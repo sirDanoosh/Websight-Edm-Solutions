@@ -30,7 +30,7 @@ const SignUpForm: React.FC<ISignUpForm> = (props) => {
                 <button type='button' className='cancel-btn modal-btn' onClick={closeForm}>
                     <span>Cancel</span>
                 </button>
-                <button type='submit' className={`sign-up-btn modal-btn ${isPassValid ? '' : 'sign-up-btn--disabled'}`} onClick={navigateToTable}>
+                <button type='submit' className={`sign-up-btn modal-btn ${isPassValid ? '' : 'sign-up-btn--disabled'}`}>
                     <span>Log In</span>
                 </button>
             </div>
