@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Websight-Edm-Solutions/static/css/main.bae28f37.css",
+    "main.js": "/Websight-Edm-Solutions/static/js/main.9f9b3cb2.js",
+    "static/media/books-business-computer-459654.webp": "/Websight-Edm-Solutions/static/media/books-business-computer-459654.049229477c36e1aa23aa.webp",
+    "index.html": "/Websight-Edm-Solutions/index.html",
+    "main.bae28f37.css.map": "/Websight-Edm-Solutions/static/css/main.bae28f37.css.map",
+    "main.9f9b3cb2.js.map": "/Websight-Edm-Solutions/static/js/main.9f9b3cb2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bae28f37.css",
+    "static/js/main.9f9b3cb2.js"
+  ]
+}
