@@ -1,0 +1,61 @@
+.login-box{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    transition: 0.5s;
+}
+
+.login-box__toggle{
+    position: relative;
+    background-color: transparent;
+    color: var(--text-color);
+    border: 0;
+    padding: 18px 48px;
+    height: 60px;
+    min-width: 250px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Work Sans';
+    overflow: hidden;
+    cursor: pointer;
+    animation: slide 0.7s ease-in-out;
+    border: 2px solid var(--btn-bg);
+    color: var(--btn-bg);
+}
+
+.login-box__toggle:hover{
+    background-color: var(--btn-bg);
+    color: var(--text-color);
+    transition: 0.5s;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(200%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 820px){
+    .login-box{
+        flex-direction: column;
+        gap: 20px;
+        width: 360px;
+    }
+    .login-box__toggle{
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .login-box{
+        flex-direction: column;
+        gap: 20px;
+        width: calc(100% - 32px);
+    }
+}
